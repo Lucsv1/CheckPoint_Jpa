@@ -29,5 +29,52 @@ public class Participantes {
 	
 	@Column(name ="emial_participantes", length = 30)
 	private String emailParticipante;
+	
+	//--------------
+
+	public int getCodigoParticipante() {
+		return codigoParticipante;
+	}
+
+	public void setCodigoParticipante(int codigoParticipante) {
+		this.codigoParticipante = codigoParticipante;
+	}
+
+	public String getNomeParticipante() {
+		return nomeParticipante;
+	}
+
+	public void setNomeParticipante(String nomeParticipante) {
+		this.nomeParticipante = nomeParticipante;
+	}
+
+	public String getEnderecoParticipante() {
+		return enderecoParticipante;
+	}
+
+	public void setEnderecoParticipante(String enderecoParticipante) {
+		this.enderecoParticipante = enderecoParticipante;
+	}
+
+	public String getTelefoneParticipante() {
+		return telefoneParticipante;
+	}
+
+	public void setTelefoneParticipante(String telefoneParticipante) {
+		this.telefoneParticipante = telefoneParticipante;
+	}
+
+	public String getEmailParticipante() {
+		return emailParticipante;
+	}
+
+	public void setEmailParticipante(String emailParticipante) {
+		this.emailParticipante = emailParticipante;
+	}
+	
+
+	
+	
+	
 
 }

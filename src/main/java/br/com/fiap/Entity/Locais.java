@@ -26,4 +26,41 @@ public class Locais {
 	
 	@Column(name ="capacidade", nullable = false, length = 80)
 	private int capacidadePessoas;
+	
+	//---------------------
+
+	public int getCodigoLocal() {
+		return codigoLocal;
+	}
+
+	public void setCodigoLocal(int codigoLocal) {
+		this.codigoLocal = codigoLocal;
+	}
+
+	public String getNomeLocal() {
+		return nomeLocal;
+	}
+
+	public void setNomeLocal(String nomeLocal) {
+		this.nomeLocal = nomeLocal;
+	}
+
+	public String getEnderecoLocal() {
+		return enderecoLocal;
+	}
+
+	public void setEnderecoLocal(String enderecoLocal) {
+		this.enderecoLocal = enderecoLocal;
+	}
+
+	public int getCapacidadePessoas() {
+		return capacidadePessoas;
+	}
+
+	public void setCapacidadePessoas(int capacidadePessoas) {
+		this.capacidadePessoas = capacidadePessoas;
+	}
+
+	
+	
 }

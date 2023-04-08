@@ -40,5 +40,49 @@ public class Ingressos {
 	@Column(name ="dt_venda", nullable = false )
 	private Calendar dataVenda;
 	
+	//---------------------
+
+	public int getCodigoIngresso() {
+		return codigoIngresso;
+	}
+
+	public void setCodigoIngresso(int codigoIngresso) {
+		this.codigoIngresso = codigoIngresso;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public TipoIngressoEnum getTypeIngresso() {
+		return typeIngresso;
+	}
+
+	public void setTypeIngresso(TipoIngressoEnum typeIngresso) {
+		this.typeIngresso = typeIngresso;
+	}
+
+	public Calendar getDataVenda() {
+		return dataVenda;
+	}
+
+	public void setDataVenda(Calendar dataVenda) {
+		this.dataVenda = dataVenda;
+	}
+	
+	
+	
 	
 }
