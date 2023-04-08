@@ -9,7 +9,7 @@
     <p>Este é um projeto em Java utilizando JPA para criar um sistema de gerenciamento de eventos. O sistema permite que os usuários criem e gerenciem eventos, vendam ingressos e acompanhem a participação dos participantes.</p>
     <h2>Como instalar e executar o projeto</h2>
     <ol>
-      <li>Clone o repositório para a sua máquina local utilizando o comando <code>git clone https://github.com/seu-usuario/nome-do-repositorio.git</code>.</li>
+      <li>Clone o repositório para a sua máquina local utilizando o comando <code>git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Lucsv1/CheckPoint_Jpa.git</code>.</li>
       <li>Importe o projeto para a sua IDE preferida como um projeto Maven.</li>
       <li>Certifique-se de que todas as dependências do Maven estão devidamente instaladas.</li>
       <li>Configure as informações do banco de dados no arquivo <code>persistence.xml</code>.</li>
