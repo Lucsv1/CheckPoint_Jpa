@@ -19,6 +19,7 @@ public class Eventos {
 	
 	@Id
 	@GeneratedValue(strategy =GenerationType.SEQUENCE, generator = "eventos" )
+	@Column(name ="cd_evento")
 	private int codigoEvento;
 	
 	@Column(name="nm_evento", nullable = false, length = 40)
