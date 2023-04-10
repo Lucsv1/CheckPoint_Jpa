@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 
 import br.com.fiap.Entity.Organizadores;
 
-public class OrganizadoresDaoImpl extends GenericDaoImpl<Organizadores, Long> implements OrganizadoresDao {
+public class OrganizadoresDaoImpl extends GenericDaoImpl<Organizadores, Integer> implements OrganizadoresDao {
 
 	public OrganizadoresDaoImpl(EntityManager ent) {
 		super(ent);

@@ -32,6 +32,10 @@ public class Participantes {
 	
 	//-----------
 	
+	public Participantes() {
+		
+	}
+	
 	public Participantes( String nomeParticipante, String enderecoParticipante,
 			String telefoneParticipante, String emailParticipante) {
 		this.nomeParticipante = nomeParticipante;
