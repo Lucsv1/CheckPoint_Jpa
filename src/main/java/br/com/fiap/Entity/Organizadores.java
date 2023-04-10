@@ -29,5 +29,59 @@ public class Organizadores {
 	
 	@Column(name="end_organizador", nullable = false, length = 80)
 	private String enderecoOrganizador;
+	
+	//---------------------
+	
+	public Organizadores(String nomeOrganizadores, String emailOrganizador, String telefoneOrganizador,
+			String enderecoOrganizador) {
+		this.nomeOrganizadores = nomeOrganizadores;
+		this.emailOrganizador = emailOrganizador;
+		this.telefoneOrganizador = telefoneOrganizador;
+		this.enderecoOrganizador = enderecoOrganizador;
+	}
+	
+	//---------------------
+
+	public int getCodigoOrganizadores() {
+		return codigoOrganizadores;
+	}
+
+	public void setCodigoOrganizadores(int codigoOrganizadores) {
+		this.codigoOrganizadores = codigoOrganizadores;
+	}
+
+	public String getNomeOrganizadores() {
+		return nomeOrganizadores;
+	}
+
+	public void setNomeOrganizadores(String nomeOrganizadores) {
+		this.nomeOrganizadores = nomeOrganizadores;
+	}
+
+	public String getEmailOrganizador() {
+		return emailOrganizador;
+	}
+
+	public void setEmailOrganizador(String emailOrganizador) {
+		this.emailOrganizador = emailOrganizador;
+	}
+
+	public String getTelefoneOrganizador() {
+		return telefoneOrganizador;
+	}
+
+	public void setTelefoneOrganizador(String telefoneOrganizador) {
+		this.telefoneOrganizador = telefoneOrganizador;
+	}
+
+	public String getEnderecoOrganizador() {
+		return enderecoOrganizador;
+	}
+
+	public void setEnderecoOrganizador(String enderecoOrganizador) {
+		this.enderecoOrganizador = enderecoOrganizador;
+	}
+	
+	
 
 }

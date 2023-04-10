@@ -30,6 +30,16 @@ public class Participantes {
 	@Column(name ="emial_participantes", length = 30)
 	private String emailParticipante;
 	
+	//-----------
+	
+	public Participantes( String nomeParticipante, String enderecoParticipante,
+			String telefoneParticipante, String emailParticipante) {
+		this.nomeParticipante = nomeParticipante;
+		this.enderecoParticipante = enderecoParticipante;
+		this.telefoneParticipante = telefoneParticipante;
+		this.emailParticipante = emailParticipante;
+	}
+	
 	//--------------
 
 	public int getCodigoParticipante() {
@@ -71,6 +81,9 @@ public class Participantes {
 	public void setEmailParticipante(String emailParticipante) {
 		this.emailParticipante = emailParticipante;
 	}
+
+	
+	
 	
 
 	

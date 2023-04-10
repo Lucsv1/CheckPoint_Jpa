@@ -32,6 +32,16 @@ public class Eventos {
 	@Column(name="tp_evento")
 	private TipoEventoEnum typeEvent;
 	
+	//---------------------
+	
+	public Eventos(String nomeEvento, String organizador, TipoEventoEnum typeEvent) {
+		super();
+		this.nomeEvento = nomeEvento;
+		this.organizador = organizador;
+		this.typeEvent = typeEvent;
+	}
+	
+	
 	//---------------
 
 	public int getCodigoEvento() {

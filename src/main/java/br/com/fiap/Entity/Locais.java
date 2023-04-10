@@ -28,6 +28,14 @@ public class Locais {
 	private int capacidadePessoas;
 	
 	//---------------------
+	
+	public Locais(String nomeLocal, String enderecoLocal, int capacidadePessoas) {
+		this.nomeLocal = nomeLocal;
+		this.enderecoLocal = enderecoLocal;
+		this.capacidadePessoas = capacidadePessoas;
+	}
+
+	//---------------------
 
 	public int getCodigoLocal() {
 		return codigoLocal;

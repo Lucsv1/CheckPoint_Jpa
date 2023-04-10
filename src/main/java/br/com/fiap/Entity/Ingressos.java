@@ -39,7 +39,16 @@ public class Ingressos {
 	@Temporal(TemporalType.DATE)
 	@Column(name ="dt_venda", nullable = false )
 	private Calendar dataVenda;
+			
+	//---------------------		
 	
+	public Ingressos(double preco, int quantidade, TipoIngressoEnum typeIngresso, Calendar dataVenda) {
+		this.preco = preco;
+		this.quantidade = quantidade;
+		this.typeIngresso = typeIngresso;
+		this.dataVenda = dataVenda;
+	}
+
 	//---------------------
 
 	public int getCodigoIngresso() {
