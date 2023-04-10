@@ -29,6 +29,10 @@ public class Locais {
 	
 	//---------------------
 	
+	public Locais() {
+		
+	}
+	
 	public Locais(String nomeLocal, String enderecoLocal, int capacidadePessoas) {
 		this.nomeLocal = nomeLocal;
 		this.enderecoLocal = enderecoLocal;

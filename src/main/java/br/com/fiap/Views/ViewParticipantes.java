@@ -19,15 +19,15 @@ public class ViewParticipantes {
 
 		ParticipantesDao participantesDao = new ParticipantesDaoImpl(ent);
 		
-//		//Cadastrar Participante
-//		
-//		Participantes participantes = new Participantes("Lucas", "Rua Portao Preto", "11982668958", "lcasgalindo@gmail.com");
-//		participantesDao.cadastrar(participantes);
-//		try {
-//			participantesDao.commit();
-//		} catch (ExceptionCommit e) {
-//			e.printStackTrace();
-//		}
+		//Cadastrar Participante
+		
+	    Participantes participantes = new Participantes("jota", "Rua Portao Preto", "11982668958", "lcasgalindo@gmail.com");
+		participantesDao.cadastrar(participantes);
+		try {
+			participantesDao.commit();
+		} catch (ExceptionCommit e) {
+			e.printStackTrace();
+		}
 		
 //		//buscar 
 //		Participantes participantes2 = null;
@@ -36,23 +36,29 @@ public class ViewParticipantes {
 //		} catch (EntityNotFind e) {
 //			e.printStackTrace();
 //		}
+//		
+//		//atualizar
+//		Participantes participantes3 = new Participantes("Joao", "Rua dois", "11982668954", "joaomota@gmail.com");
+//		participantes3.setCodigoParticipante(1);
+//		participantesDao.cadastrar(participantes3);
+//		try {
+//			participantesDao.commit();
+//		} catch (ExceptionCommit e) {
+//			e.printStackTrace();
+//		}
 		
-		//atualizar
-		Participantes participantes3 = new Participantes("Joao", "Rua dois", "11982668954", "joaomota@gmail.com");
-		participantes3.setCodigoParticipante(1);
-		participantesDao.cadastrar(participantes3);
-		try {
-			participantesDao.commit();
-		} catch (ExceptionCommit e) {
-			e.printStackTrace();
-		}
-		
-		//deletar
-		try {
-			participantesDao.deletar(1);
-		} catch (EntityNotFind e) {
-			e.printStackTrace();
-		}
+//		//deletar
+//		try {
+//			participantesDao.deletar(3);
+//		} catch (EntityNotFind e) {
+//			e.printStackTrace();
+//		}
+//		try {
+//			participantesDao.commit();
+//			
+//		} catch (ExceptionCommit e) {
+//			e.printStackTrace();
+//		}
 	}
 		
 }

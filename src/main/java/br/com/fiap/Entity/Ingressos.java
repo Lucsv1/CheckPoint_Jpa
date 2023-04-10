@@ -40,7 +40,11 @@ public class Ingressos {
 	@Column(name ="dt_venda", nullable = false )
 	private Calendar dataVenda;
 			
-	//---------------------		
+	//---------------------	
+	
+	public Ingressos() {
+		
+	}
 	
 	public Ingressos(double preco, int quantidade, TipoIngressoEnum typeIngresso, Calendar dataVenda) {
 		this.preco = preco;

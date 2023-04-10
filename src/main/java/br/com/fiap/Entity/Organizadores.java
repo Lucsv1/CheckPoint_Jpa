@@ -32,6 +32,10 @@ public class Organizadores {
 	
 	//---------------------
 	
+	public Organizadores() {
+		
+	}
+	
 	public Organizadores(String nomeOrganizadores, String emailOrganizador, String telefoneOrganizador,
 			String enderecoOrganizador) {
 		this.nomeOrganizadores = nomeOrganizadores;
