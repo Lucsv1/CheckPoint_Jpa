@@ -59,8 +59,6 @@ public class ViewEventos {
 		e.printStackTrace();
 	}
 	  
-	  
-	  
 
 	}
 

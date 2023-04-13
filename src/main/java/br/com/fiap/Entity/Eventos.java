@@ -7,6 +7,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -32,7 +33,15 @@ public class Eventos {
 	@Column(name="tp_evento")
 	private TipoEventoEnum typeEvent;
 	
+	@OneToMany(mappedBy = "eventos")
+	private Ingressos ingressos;
+	
+	
 	//---------------------
+	
+	public Eventos() {
+		
+	}
 	
 	public Eventos(String nomeEvento, String organizador, TipoEventoEnum typeEvent) {
 		super();
