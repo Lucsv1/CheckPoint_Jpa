@@ -18,8 +18,8 @@ public abstract class GenericDaoImpl<E,K> implements GenericDao<E,K> {
 		this.clazz = (Class<E>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
 	}
 	
-	public void cadastrar(E entidade) {
-		ent.merge(entidade);
+	public E cadastrar(E entidade) {
+		return ent.merge(entidade);
 	}
 	
 	public E pesquisar(K id) throws EntityNotFind {

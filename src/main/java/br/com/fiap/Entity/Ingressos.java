@@ -43,7 +43,7 @@ public class Ingressos {
 	private Calendar dataVenda;
 	
 	@ManyToOne
-	@JoinColumn(name = "cd_evento")
+	@JoinColumn(name = "cd_evento", nullable = false)
 	private Eventos eventos;
 	
 			
